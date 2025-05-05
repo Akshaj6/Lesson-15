@@ -1,7 +1,5 @@
 import math
-
-hypotenuse = 34
-
-print(math.cos(hypotenuse))
-print(math.tan(hypotenuse))
-print(math.sin(hypotenuse))
+angle = int(input("Enter an angle : "))
+print(math.cos(angle))
+print(math.tan(angle))
+print(math.sin(angle))
